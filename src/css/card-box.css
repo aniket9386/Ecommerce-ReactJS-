@@ -1,0 +1,46 @@
+.cat-card .card1 .card {
+    background-color: #F9E4D4;
+    border-color: #F9E4D4;
+}
+
+.cat-card .card2 .card {
+    background-color: #B8FFF9;
+    border-color: #B8FFF9;
+}
+
+.cat-card .card3 .card {
+    background-color: #E7FBBE;
+    border-color: #E7FBBE;
+}
+
+.cat-card .card4 .card {
+    background-color: #FFF89A;
+    border-color: #FFF89A;
+}
+
+.cat-bg {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cat-bg img {
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.min-price {
+    padding: 0;
+    margin: 0;
+    color: green;
+    font-weight: 600;
+}
+
+.cat-name {
+    margin: 0;
+}
+
+.cat-card .col-6 {
+    padding: 0 3px;
+}

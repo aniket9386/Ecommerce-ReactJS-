@@ -1,0 +1,45 @@
+.sidecart-products .p-title {
+    font-weight: 500;
+}
+
+.sidecart-products .btn.btn-result,
+.sidecart-products .btn.btn-minus,
+.sidecart-products .btn.btn-plus {
+    min-width: 25px;
+    padding: 2px;
+}
+
+.sidecart-products .cart-p-image-sec {
+    padding: 0;
+}
+
+.place-order-sidecart {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0 0 -16px !important;
+    padding: 8px 12px !important;
+    font-size: 12px;
+    box-shadow: rgb(0 0 0 / 15%) 0px -4px 4px -2px;
+    justify-content: space-between;
+}
+
+.place-order-sidecart .btn {
+    font-size: 16px;
+}
+
+.place-order-sidecart .place-order-price {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -5px;
+    display: block;
+}
+
+.side-view-cart {
+    font-weight: 500;
+    font-size: 14px;
+}

@@ -1,0 +1,33 @@
+.checkout .accordion-button {
+    background-color: #063e96;
+    color: #ffffff;
+}
+
+.checkout .accordion-item {
+    margin-bottom: 10px;
+}
+
+.checkout .accordion-button:after {
+    filter: invert(1);
+}
+
+.checkout .accordion-button:not(.collapsed)::after {
+    filter: invert(0);
+}
+
+.checkout .order-summary p {
+    margin-bottom: 5px;
+}
+
+.payment-option hr {
+    height: 0.5px;
+}
+
+.checkout {
+    z-index: 0;
+}
+
+.checkout-select-address hr {
+    opacity: 1;
+    color: #eee;
+}

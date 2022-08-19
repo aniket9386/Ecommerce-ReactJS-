@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --bs-body-font-family: 'Roboto', sans-serif;
+  --theme-blue: #063e96;
+  --theme-orange: #c9542a;
+  --theme-lightblue1: #e8f4ff;
+  --theme-lightblue2: #f5faff;
+  --theme-white: #ffffff;
+  --theme-black: #000000;
+}
+
+.container-fluid {
+  padding-left: 5px;
+  padding-right: 5px;
+  z-index: 0;
+}
+
+input:focus,
+input,
+textarea,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+  border-width: 0 !important;
+}
+
+.btn:hover {
+  background-color: var(--theme-orange) !important;
+  border-color: var(--theme-orange);
+  color: var(--theme-white);
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #063e96 !important;
+}
+
+.text-primary {
+  color: #063e96 !important;
+}
+
+.btn-secondary,
+.bg-secondary {
+  background-color: #c9542a !important;
+}
+
+.text-secondary {
+  color: #c9542a !important;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.slick-prev,
+.slick-next {
+  background: #ffffff !important;
+  color: #000000 !important;
+  padding: 4px;
+  width: 30px;
+  height: 50px;
+  z-index: 9;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%) !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'FontAwesome' !important;
+  color: #000000 !important;
+}
+
+.slick-next:before {
+  content: '\f105' !important;
+}
+
+.slick-prev:before {
+  content: '\f104' !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a,
+button {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: #063e96;
+}
+
+img {
+  width: 100%;
+}
+
+.pc-sec {
+  display: block;
+}
+
+.mob-sec {
+  display: none;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.title404 {
+  font-size: 60px;
+}
+
+@media only screen and (max-width:700px) {
+
+  .pc-sec {
+    display: none !important;
+  }
+
+  .mob-sec {
+    display: block;
+  }
+}
+
+.slick-next {
+  right: 0 !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+}
+
+/* slideshow css */
+@media only screen and (min-width:700px) {
+  .carousel-inner.home-slide {
+    height: 180px;
+    overflow: visible;
+  }
+}
+
+@media only screen and (min-width:1100px) {
+  .carousel-inner.home-slide {
+    height: 260px;
+    overflow: visible;
+  }
+
+  .slideshow-bottom {
+    display: inline-block;
+    margin-top: -515px;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(transparent 0%, #f4f4f4 100%);
+    z-index: 1;
+  }
+
+  .carousel-inner.home-slide img {
+    position: relative;
+    z-index: -1;
+  }
+
+  .z-index-1 {
+    z-index: 1;
+  }
+}
+
+.z-index-0 {
+  z-index: 0;
+}
+
+.z-index1 {
+  z-index: 1 !important;
+}
+
+.z-index2 {
+  z-index: 2 !important;
+}
+
+.fixed-top {
+  position: fixed !important;
+  z-index: 999999 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 0;
+}
+
+.show-counter {
+  display: flex;
+  align-items: center;
+}
+
+.show-counter p {
+  margin: 0 3px;
+}
+
+.timerimg {
+  width: 25px !important;
+  height: 25px !important;
+  margin: 0 10px 0 0 !important;
+}
+
+.show-counter .danger {
+  display: none;
+}
+
+@media only screen and (max-width:820px) {
+
+  h5 {
+    font-size: 18px;
+  }
+
+
+  .show-counter {
+    font-size: 14px;
+  }
+
+  .timerimg {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 10px 0 0 !important;
+  }
+
+  .btn {
+    /* padding: 2px 6px; */
+    font-size: 12px;
+  }
+}
+
+
+.hide-tab {
+  display: block;
+}
+
+@media (min-width:750px) and (max-width:1100px) {
+  .hide-tab {
+    display: none;
+  }
+}
+
+select {
+  box-shadow: none !important;
+}
+
+.myfixed {
+  position: fixed;
+  z-index: 9;
+}
+
+.btn.available-offer-btn,
+.btn.btn-cancel {
+  background-color: transparent !important;
+  color: #000000;
+}
+
+@media (min-width:800px) {
+  ul.dropdown-menu {
+    /* margin-top: 7px; */
+    border-color: #ffffff;
+    box-shadow: 0 0 10px 0 #888888;
+  }
+
+  ul.dropdown-menu:before {
+    right: 50%;
+    top: -20px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 10px;
+  }
+
+  .dropend ul.dropdown-menu:before {
+    right: 99.5%;
+    top: 0px;
+    border-right-color: #ffffff;
+    border-bottom-color: transparent;
+  }
+
+  .myheader-category-slider .slick-active:last-child .dropend ul.dropdown-menu:before {
+    left: 99.5%;
+    right: 0;
+    border-left-color: #ffffff;
+  }
+
+  .more-dropdown ul.dropdown-menu:before {
+    right: 80% !important;
+  }
+
+  .login-dropdown ul.dropdown-menu:before {
+    right: 65% !important;
+  }
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.width-max-content {
+  width: max-content;
+}
+
+#myloader {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  z-index: 999999999999;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#myloader i {
+  font-size: 30px;
+}
+
+#myloader-sec {
+  z-index: 999999999999;
+  background: #00000042;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* css for hide something in other pages exclude home page */
+.myheader-category,
+.myhidesearch .header-search-sec {
+  display: none;
+}
+
+.myhome .myheader-category {
+  display: block;
+}
+
+.myhome-slider-link {
+  z-index: 1;
+  position: relative;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f5faff !important;
+  color: #000000;
+}

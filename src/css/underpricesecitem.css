@@ -1,0 +1,39 @@
+.under-price-sec {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+
+.UnderPriceSecItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.UnderPriceSecItem h2 {
+    color: #c95329;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 10px 0;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 15px 8px;
+    background-color: #ffffff;
+}
+
+.UnderPriceSecItem p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .UnderPriceSecItem p {
+        font-size: 14px;
+    }
+}

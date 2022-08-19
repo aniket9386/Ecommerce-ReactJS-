@@ -1,0 +1,15 @@
+@media only screen and (max-width:700px){
+.mob-cat-content-sec{
+    flex-direction: row!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+}
+.mob-cat-content-sec h5, .mob-cat-content-sec a{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+.mob-cat-content-sec h5{
+    text-align: left!important;
+    width: 60%;
+}
+}

@@ -1,0 +1,43 @@
+.product-list-item-no-btn .card-img-top {
+    width: 60% !important;
+    height: auto;
+}
+
+.mob-product-sec-item {
+    padding: 0 0 0 0;
+}
+
+.product-list-item-no-btn {
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 10px !important;
+    border: 0.5px solid #eeeeee;
+}
+
+.product-list-item-no-btn .pl-title,
+.product-list-item-no-btn .product_saved {
+    font-size: 12px;
+}
+
+.product-list-item-no-btn .product_price {
+    font-size: 16px !important;
+    margin-top: 0;
+}
+
+.product-list-item-no-btn .product-o-price {
+    font-size: 10px;
+}
+
+.product-list-item-no-btn .card-body {
+    padding: 10px 1rem 0 1rem !important;
+}
+
+.product-list-item-no-btn .product_discount {
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+.product-list-item-no-btn .mp-content {
+    display: flex;
+    align-items: flex-end;
+}

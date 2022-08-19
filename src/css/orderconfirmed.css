@@ -1,0 +1,19 @@
+.order-complete-sec i {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.order-complete-sec h1 {
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+    /* font-size: 4.05rem; */
+}
+
+.btn-confirm-page {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    line-height: 1.5;
+    padding: 0.7rem 0.75rem;
+    font-size: .6875rem;
+    margin-top: 30px;
+}

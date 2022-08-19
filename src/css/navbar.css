@@ -1,0 +1,207 @@
+.logo {
+    width: 110px;
+}
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        position: absolute !important;
+    }
+}
+
+.form-inputs {
+    position: relative
+}
+
+.form-inputs .form-control {
+    height: 45px
+}
+
+.form-inputs .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #000
+}
+
+.form-inputs i {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: #063e96;
+}
+
+.shop-bag {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center
+}
+
+
+#header,
+#navfix {
+    z-index: 9;
+    position: relative;
+}
+
+.offcanvas-start {
+    width: 300px;
+}
+
+#navfix {
+    color: #063e96;
+}
+
+.offcanvas-header a {
+    color: #ffffff;
+}
+
+.offcanvas-header .btn-close {
+    filter: invert(1);
+    opacity: 1;
+}
+
+.dropdown-toggle::after,
+.dropend .dropdown-toggle::after {
+    content: '\f107';
+    font-family: 'FontAwesome';
+    vertical-align: 0;
+    border: 0;
+    font-size: 13px !important;
+}
+
+#moreDropdownMenuLink::after {
+    border-left: 0;
+}
+
+.myclose {
+    background: unset;
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+    color: #063e96 !important;
+    opacity: 1 !important;
+}
+
+.bg-h-cat {
+    background-color: #F9E4D4;
+}
+
+/*
+#navfix,
+#mobnavfix {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+*/
+
+.mobile-menu a {
+    color: #353535;
+    font-weight: 400;
+    padding-top: 0.2rem;
+    font-size: 14px;
+}
+
+.mobile-menu i,
+.offcanvas-title-home {
+    min-width: 25px;
+}
+
+.mobile-menu hr {
+    color: #dddddd;
+    opacity: 1;
+    margin: 4px 0;
+}
+
+.new-sign-up li {
+    padding: .25rem 1rem;
+    font-weight: 500;
+}
+
+.login-dropdown i,
+.more-dropdown i {
+    width: 25px;
+    color: #063e96;
+}
+
+.login-dropdown .dropdown-menu,
+.more-dropdown .dropdown-menu {
+    padding-bottom: 0;
+}
+
+.login-dropdown .dropdown-item:hover,
+.login-dropdown .dropdown-item:focus,
+.more-dropdown .dropdown-item:hover,
+.more-dropdown .dropdown-item:focus {
+    background: none;
+    color: #000000;
+}
+
+.login-menu-items li,
+.more-menu-items li {
+    padding: 0.3rem 0;
+    border-top: 1px solid #dddddd;
+}
+
+.login-menu-items li:hover,
+.more-menu-items li:hover {
+    background-color: #f5faff;
+}
+
+.more-menu-items {
+    padding: 0;
+}
+
+.h-pc-sec {
+    display: block !important;
+}
+
+.h-mob-sec {
+    display: none !important;
+}
+
+.cart-count,
+.notification-count {
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    background: #fff;
+    box-shadow: 0 0 5px 1px #aaaaaa;
+    border-radius: 100%;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favicon-close {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    box-shadow: 0 0 5px 1px #aaaaaa;
+}
+
+@media (max-width:820px) {
+    .h-pc-sec {
+        display: none !important;
+    }
+
+    .h-mob-sec {
+        display: block !important;
+    }
+
+    .cart-count,
+    .notification-count {
+        top: -8px;
+        right: -6px;
+        font-size: 10px;
+        width: 15px;
+        height: 15px;
+    }
+}

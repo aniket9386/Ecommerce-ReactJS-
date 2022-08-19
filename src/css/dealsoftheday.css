@@ -1,0 +1,22 @@
+.dealsoftheday .timer{
+    width: 25px;
+    margin-left: 25px;
+    margin-right: 1px;
+}
+#days{
+    display: none;
+}
+#countdown ul{
+    display: flex;
+    padding-left: 0;
+}
+#countdown ul li{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:700px){
+.dealsoftheday .w-50{
+    width: 100%!important;
+}
+}

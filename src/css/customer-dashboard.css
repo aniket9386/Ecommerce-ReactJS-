@@ -1,0 +1,632 @@
+.c-dashboard-l-sidebar {
+    background-color: #ffffff;
+    width: 25%;
+    border-radius: 0;
+}
+
+.c-dashboard-r-sidebar {
+    background-color: #ffffff;
+    width: 75%;
+    border-radius: 0;
+    padding: 15px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    text-align: left;
+    color: #000000;
+    padding-left: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #f5faff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #f5faff;
+    color: #063e96;
+}
+
+.c-dashboard-heading {
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-top: 1px solid #dddddd;
+}
+
+.c-dashboard-heading i {
+    margin-right: 10px;
+    color: #063e96;
+    font-size: 18px;
+}
+
+.user-name {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+.user-name-sec {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user-greetings {
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+}
+
+.user-name img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+
+.my-order-page,
+.customer-information-page,
+.manage-address-page,
+.saved-card-page,
+.available-coupon-page,
+.customer-review-page,
+.all-notifications-page,
+.customer-wishlist-page,
+.my-order-tracking-page {
+    padding: 20px;
+}
+
+.my-order-l-sidebar,
+.customer-information-l-sidebar,
+.manage-address-l-sidebar,
+.saved-card-l-sidebar,
+.available-coupon-l-sidebar,
+.customer-review-l-sidebar,
+.all-notifications-l-sidebar,
+.customer-wishlist-l-sidebar,
+.my-order-tracking-l-sidebar {
+    background-color: #ffffff;
+}
+
+.c-dashboard-sidebar a {
+    display: block;
+    padding: 5px 15px 5px 43px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.c-dashboard-sidebar a:hover {
+    background-color: #e8f4ff;
+}
+
+a.user-logout {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 1px solid #dddddd;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.c-my-order {
+    padding: 15px !important;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.c-my-order i {
+    margin-right: 10px;
+    color: #063e96;
+    font-size: 18px;
+}
+
+.c-my-order h6 {
+    margin: 0;
+}
+
+.my-order-r-sidebar,
+.customer-information-r-sidebar,
+.manage-address-r-sidebar,
+.saved-card-r-sidebar,
+.available-coupon-r-sidebar,
+.customer-review-r-sidebar,
+.all-notifications-r-sidebar,
+.customer-wishlist-r-sidebar,
+.my-order-tracking-r-sidebar {
+    background-color: #ffffff;
+    padding: 25px 30px;
+}
+
+.my-order-page .c-my-order,
+.customer-information-page .profile-information,
+.manage-address-page .manage-address,
+.saved-card-page .saved-cards,
+.available-coupon-page .my-coupons,
+.customer-review-page .my-review-rating,
+.all-notifications-page .all-notification,
+.customer-wishlist-page .my-wishlist,
+.my-order-tracking-page .c-my-order {
+    background-color: #e8f4ff;
+}
+
+.customer-information-r-sidebar input[type=text],
+.customer-information-r-sidebar input[type=email] {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.customer-information-r-sidebar .form-check .form-check-input {
+    float: none;
+    margin-right: 10px;
+}
+
+.customer-information-r-sidebar .form-check {
+    display: inline;
+    margin-right: 15px;
+}
+
+.customer-information-heading {
+    margin-top: 30px;
+}
+
+.faqs h4 {
+    font-size: 16px;
+}
+
+.faqs p {
+    font-size: 14px;
+}
+
+.saved-address {
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.addresses {
+    padding: 15px;
+}
+
+.address-type span {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #878787;
+    vertical-align: middle;
+    padding: 4px 7px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.address-type {
+    margin-bottom: 10px;
+}
+
+.customer-name,
+.customer-phone {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.customer-phone {
+    margin-left: 15px;
+}
+
+.cust-address {
+    margin: 0;
+}
+
+.cust-information {
+    margin-bottom: 7px;
+}
+
+.edit-address {
+    float: right;
+    z-index: 2;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.edit-delete {
+    z-index: 1;
+    white-space: nowrap;
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    color: #878787;
+    border: 1px solid rgba(0, 0, 0, .05);
+    box-shadow: 0 6px 6px 0 rgb(0 0 0 / 12%), 0 1px 3px 0 rgb(0 0 0 / 18%);
+    right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    top: 10px;
+    background-color: #ffffff;
+}
+
+.edit-address:hover .edit-delete {
+    display: block;
+}
+
+.edit-address div {
+    padding: 7px 12px;
+    color: #212121;
+}
+
+.saved-address hr {
+    color: #dddddd;
+    opacity: 1;
+    margin: 0;
+}
+
+.add-address {
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.manage-address-r-sidebar .form-check .form-check-input {
+    float: none;
+    margin-right: 10px;
+}
+
+.manage-address-r-sidebar .form-check {
+    display: inline;
+    margin-right: 15px;
+}
+
+.customer-dis-code img {
+    width: 23px;
+}
+
+.customer-review-text {
+    font-size: 14px;
+}
+
+.customer-p-review-image img {
+    width: 50px;
+    height: 50px;
+}
+
+.customer-product-review-image img {
+    padding: 0 15px;
+}
+
+.customer-review-item {
+    width: 87%;
+}
+
+.customer-product-review-image {
+    width: 13%;
+}
+
+.notification-item-img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+.notification-item-img-modal {
+    margin-right: 15px;
+    width: 50px;
+}
+
+.notification-item {
+    display: flex;
+    align-items: center;
+}
+
+.wishlist-link {
+    float: right;
+}
+
+.notification-link {
+    bottom: 0;
+    position: absolute;
+    right: 15px;
+    z-index: 2;
+}
+
+.notification-sec,
+.wishlist-sec {
+    border: 1px solid #dddddd;
+    padding: 15px 0;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.notification-sec hr,
+.wishlist-sec hr {
+    color: #dddddd;
+    opacity: 1;
+}
+
+.notifications,
+.wishlists {
+    padding: 0 15px;
+}
+
+.wishlist-item {
+    display: flex;
+}
+
+.wishlist-item-img {
+    width: 13%;
+    padding-right: 25px;
+}
+
+.wishlist-item-text {
+    width: 87%;
+}
+
+.wishlist-product_name {
+    font-weight: 500;
+}
+
+.wishlist-p-price-sec {
+    margin-top: 15px;
+}
+
+.wishlist-product_price {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wishlist-product_discount {
+    font-size: 14px;
+}
+
+.wishlist-p-dis-percentage {
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: #28a745;
+}
+
+.myorder-item {
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.myorder-item a {
+    color: #000000;
+}
+
+.myorder-p-image {
+    width: 12%;
+    padding-right: 20px;
+}
+
+.myorder-p-text {
+    width: 88%;
+    justify-content: space-between;
+}
+
+.order-delivery-status {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.order-status-p-image {
+    width: 12%;
+    padding-right: 20px;
+}
+
+.order-status-p-price {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.order-status-p-name a {
+    color: #000000;
+}
+
+.delivery-dates span {
+    font-size: 12px;
+}
+
+.order-status-address p {
+    margin-bottom: 0;
+}
+
+.download-invoice,
+.order-status-address {
+    width: 50%;
+}
+
+.order-status-address {
+    padding-right: 10px;
+}
+
+.download-invoice {
+    padding-left: 20px;
+    border-left: 1px solid #dddddd;
+}
+
+.delivery-head {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px !important;
+}
+
+.status-phone-number {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.status-c-name {
+    font-weight: 500;
+    margin-bottom: 5px !important;
+}
+
+.download-invoice a {
+    font-weight: 500;
+}
+
+@media (max-width:820px) {
+
+    .my-order-page .col-md-3,
+    .customer-information-page .col-md-3,
+    .manage-address-page .col-md-3,
+    .saved-card-page .col-md-3,
+    .available-coupon-page .col-md-3,
+    .customer-review-page .col-md-3,
+    .all-notifications-page .col-md-3,
+    .customer-wishlist-page .col-md-3,
+    .my-order-tracking-page .col-md-3 {
+        display: none;
+    }
+
+    .my-order-page .col-md-9,
+    .customer-information-page .col-md-9,
+    .manage-address-page .col-md-9,
+    .saved-card-page .col-md-9,
+    .available-coupon-page .col-md-9,
+    .customer-review-page .col-md-9,
+    .all-notifications-page .col-md-9,
+    .customer-wishlist-page .col-md-9,
+    .my-order-tracking-page .col-md-9 {
+        width: 100%;
+    }
+
+    .my-order-page,
+    .customer-information-page,
+    .manage-address-page,
+    .saved-card-page,
+    .available-coupon-page,
+    .customer-review-page,
+    .all-notifications-page,
+    .customer-wishlist-page,
+    .my-order-tracking-page {
+        padding: 0;
+    }
+
+    .my-order-r-sidebar,
+    .customer-information-r-sidebar,
+    .manage-address-r-sidebar,
+    .saved-card-r-sidebar,
+    .available-coupon-r-sidebar,
+    .customer-review-r-sidebar,
+    .all-notifications-r-sidebar,
+    .customer-wishlist-r-sidebar,
+    .my-order-tracking-r-sidebar {
+        padding: 30px 10px 10px 10px;
+    }
+
+    .customer-product-review-image img {
+        padding-right: 0;
+    }
+
+    .customer-product-review-image {
+        width: 20%;
+    }
+
+    .customer-review-item {
+        width: 80%;
+    }
+
+    .notification-item {
+        align-items: flex-start;
+    }
+
+    .notification-item-img {
+        width: 100px;
+    }
+
+    .notification-item-img-modal {
+        width: 100px;
+    }
+
+    .notification-link {
+        font-size: 13px;
+    }
+
+    .wishlist-item-img {
+        width: 20%;
+        padding-right: 0;
+    }
+
+    .wishlist-item-text {
+        width: 80%;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+
+    .wishlist-product_name,
+    .wishlist-product-rating {
+        font-size: 14px;
+    }
+
+    .wishlist-p-price-sec {
+        margin-top: 10px;
+    }
+
+    .myorder-item .myorder-p-text {
+        flex-wrap: wrap;
+        width: 80%;
+        padding-left: 15px;
+    }
+
+    .myorder-p-image {
+        width: 20%;
+        padding-right: 0;
+    }
+
+    .order-delivery-status {
+        font-size: 13px;
+    }
+
+    .order-status-p-image {
+        width: 20%;
+        padding-right: 0;
+    }
+
+    .order-status-p-name {
+        width: 80%;
+        padding-left: 15px;
+    }
+
+    .delivery-dates span {
+        font-size: 9px;
+    }
+
+    .download-invoice {
+        width: 40%;
+    }
+
+    .order-status-address {
+        width: 60%;
+    }
+
+    .download-invoice a {
+        font-size: 14px;
+    }
+}
+
+.dashboart-p-title,
+.wishlist-product_name,
+.order-product-name,
+.notification-item-text-title {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.wishlist-add-cart {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.wishlist-buy-now:hover {
+    background-color: #063e96 !important;
+}
